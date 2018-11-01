@@ -1,0 +1,40 @@
+
+public class MotDict {
+	private String mot;
+	private String definition;
+	
+	public String getMot()
+	{
+		return mot;
+	}
+	public String getDefinition()
+	{
+		return definition;
+		
+	}
+	public void setDefinition(String def)
+	{
+		definition = def;
+		
+	}
+	public void setMot(String mot)
+	{
+		this.mot = mot;
+	}
+	
+	public MotDict(String mot, String definition)
+	{
+		this.mot = mot;
+		this.definition = definition;
+	}
+	public boolean Synonyme(MotDict mot)
+	{
+		
+		if(this.definition == mot.definition)
+		{
+			return true;
+		}
+		else 
+			return false;
+	}
+}

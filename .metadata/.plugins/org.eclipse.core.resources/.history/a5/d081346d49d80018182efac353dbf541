@@ -1,0 +1,21 @@
+
+public class Champions {
+	
+		private float health = 100f;
+		private float armour = 100f;
+		private String name = "";
+		
+		private static float xp = 0f;
+		
+		public void Punch()
+		{
+			//Punch other players
+		}
+		
+		public void CastSpell(float damage)
+		{
+			//Will cast spell
+			health -= damage;
+			
+		}
+}

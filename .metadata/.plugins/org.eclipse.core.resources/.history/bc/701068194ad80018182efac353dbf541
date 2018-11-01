@@ -1,0 +1,11 @@
+
+public class OrcClass {
+
+	public static void main(String[] args) {
+		Champions orc = new Champions(100, 50, 500);
+		 
+		System.out.println("Health of orc = " + orc.getHealth());
+
+	}
+
+}

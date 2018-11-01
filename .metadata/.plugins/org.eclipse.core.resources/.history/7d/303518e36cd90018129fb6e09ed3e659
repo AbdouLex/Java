@@ -1,0 +1,18 @@
+
+public class MyClass {
+	
+		private float health;
+		private float xp;
+		private int level;
+		
+		
+		public MyClass(float health, float xp, int level)
+		{
+			this.health = health;
+			this.xp = xp;
+			this.level = level;
+		}
+		
+		
+	
+}

@@ -1,0 +1,29 @@
+
+public class MyClass {
+	
+		private String name;
+		private float health;
+		private float armour;
+		
+		private float xp;
+		private int level;
+		
+		
+		public MyClass(float health, float xp, int level)
+		{
+			
+			this.health = health;
+			this.xp = xp;
+			this.level = level;
+			
+		}
+		
+		public MyClass(String name)
+		{
+			this.name = name;
+		}
+		
+		
+		
+	
+}

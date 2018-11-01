@@ -1,0 +1,13 @@
+
+public class TestClass {
+
+	public static void main(String[] args) {
+		
+		MyClass orc = new MyClass(200,0,1);
+		
+		System.out.println(orc.getHealth());
+		
+		
+	}
+
+}
